@@ -10,9 +10,10 @@ https://github.com/6yy66yy/legod-auto-pause
 
 
 ## 使用方式
-`直接用编译后的可执行文件`或者`配置deno环境后执行main.js`
+第一次运行会要求手机号和密码，登录信息生成config.json
 
-需修改config.json中的username和passwordMD5
+> 有Deno环境的Linux只需要main.js就能跑了
+
 ## 编译
 ```
 deno compile --allow-write --allow-read --allow-net ./main.js --is_compiled
